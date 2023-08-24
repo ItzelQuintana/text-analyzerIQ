@@ -6,8 +6,23 @@
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <script src="index.js" type="module"></script>
+   
+   <h1  style="color: #08AFED;">Analizador de texto</h1>
+      <textarea name="user-input" cols="30" rows="8" placeholder="Ingrese texto a analizar"></textarea>
+      <ul>
+        <li data-testid="word-count"> Recuento de palabras</li>
+        <li data-testid="chracter-count"> Recuento de caracteres</li>
+        <li data-testid="character-np-spaces-count"> Recuento de caracteres excluyendo espacios y signos de puntuación </li>
+        <li data-testid="number count">Recuento de números </li>
+        <li data-testid="number sum"> Suma total de números </li>
+        <li data-testid="word-lenght-average">Longitud media de palabra </li>
+      </ul>
+      <button id="reset-button">Limpiar</button>
+      <footer> 
+        <p>Autor: Itzel Quintana </p>
+      </footer>
+      <script src="index.js" type="module"></script> 
 </body>
+
 </html>
