@@ -1,0 +1,28 @@
+html {
+background-image: url("https://previews.123rf.com/images/badahos/badahos1106/badahos110600044/9893037-letras-de-peri%C3%B3dico-fondo.jpg");
+background-size:100%;
+text-align:center
+}
+h1.titulo {
+margin-bottom: 20px;
+font-size: 350%; 
+font-family: 'Courier New', Courier, monospace; 
+}
+
+li.metricas {
+background-color: #A4CCB8;
+padding: 12px;
+display: inline-block;
+margin-left: 10px;
+margin-bottom: 30px;
+font-family: cursive
+}
+.textarea{
+background-color: #E4F7E2;
+border: 1px solid black;
+padding: 12px;
+margin-left:400px;
+margin-right:400px ;
+margin-bottom: 20px;
+font-family: cursive
+}
