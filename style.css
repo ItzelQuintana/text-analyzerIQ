@@ -1,0 +1,56 @@
+html{
+background-image: url("https://previews.123rf.com/images/badahos/badahos1106/badahos110600044/9893037-letras-de-peri%C3%B3dico-fondo.jpg");
+background-size:100%;
+text-align:center
+}
+
+header{
+margin-bottom: 15px;
+font-size: 180%; 
+font-family: 'Courier New', Courier, monospace; 
+}
+#columnas{
+ column-count: 2;  
+ column-gap: 50px;
+ column-rule: 6px solid gray;
+}
+.metricas{
+background-color: #A4CCB8;
+padding: 8px;
+display:block;
+margin-bottom: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+textarea[name="user-input"]{
+background-color: #E4F7E2;
+border: 2px solid black;
+padding: 12px;
+margin-left:400px;
+margin-right:400px ;
+margin-bottom: 8px;
+font-family: cursive
+}
+footer{
+color: #000000;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+display: block;
+text-align:right;
+font-size: 100%;
+background-color: #CAC7C7;
+margin-top: 60px;
+}
+#reset-button{
+justify-content: center;
+border: 2px solid #000000;
+margin-top: 20px;   
+height: 40px;
+width: 150px;
+padding: 5px;
+background-color: transparent;
+box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+font-size: 100%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+}
+
