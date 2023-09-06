@@ -10,7 +10,7 @@ font-size: 180%;
 font-family: 'Courier New', Courier, monospace; 
 }
 #columnas{
- column-count: 2;   
+ column-count: 2;  
  column-gap: 50px;
  column-rule: 6px solid gray;
 }
@@ -47,7 +47,7 @@ margin-top: 20px;
 height: 40px;
 width: 150px;
 padding: 5px;
-background-color: blanchedalmond;
+background-color: transparent;
 box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 font-size: 100%;
 font-family: Verdana, Geneva, Tahoma, sans-serif;

@@ -7,6 +7,9 @@ botonr.addEventListener("click", () =>{
   document.querySelectorAll('#columnas li')[1].innerHTML= "Caracteres totales: ";
   document.querySelectorAll('#columnas li')[2].innerHTML= "Caracteres sin espacios ni signos: ";
   document.querySelectorAll('#columnas li')[3].innerHTML= "Cantidad de números: ";
+  document.querySelectorAll('#columnas li')[4].innerHTML= "Suma total de números: ";
+  document.querySelectorAll('#columnas li')[5].innerHTML= "Longitud media de palabra: ";
+
 });
 const ctexto = document.querySelector("textarea")
 ctexto.addEventListener("keyup", () =>{
@@ -29,10 +32,12 @@ ctexto.addEventListener("keyup", () =>{
   const metrica3 = analyzer.getNumberCount(texto)
   document.querySelectorAll('#columnas li')[3].innerHTML= "Cantidad de números: "+ metrica3
   
+  analyzer.getAverageWordLength(texto)
+  const metrica5 = analyzer.getAverageWordLength(texto)
+  document.querySelectorAll('#columnas li')[5].innerHTML= "Longitud media de palabra: "+ metrica5
+
   analyzer.getNumberSum(texto)
   const metrica4 = analyzer.getNumberSum(texto)
   document.querySelectorAll('#columnas li')[4].innerHTML= "Suma total de números: "+ metrica4
-
-  analyzer.getAverageWordLength(texto)
 });
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
