@@ -4,7 +4,7 @@ const analyzer = {
     const texto = espacios.split(" ");
     console.log(texto);
     let nPalabras = texto.length;
-    if (texto.length === 1 && texto[0] === "") {
+    if (texto[0] === "") {
       nPalabras = 0;
     }
 
@@ -50,27 +50,7 @@ const analyzer = {
       }
     }
     console.log(elementosValidos);
-
-    let nEnteros = 0;
-    let nDecimales = 0;
-
-    if (!elementosValidos) {
-      nEnteros = 0;
-      nDecimales = 0;
-    } else {
-      for (let i = 0; i < elementosValidos.length; i++) {
-        const numero = parseFloat(elementosValidos[i]);
-        if (Number.isInteger(numero)) {
-          nEnteros++;
-        } else {
-          nDecimales++;
-        }
-      }
-    }
-
-    console.log(nDecimales + nEnteros);
-    const nTotales = nDecimales + nEnteros;
-    return nTotales;
+    return elementosValidos.length;
 
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
   },
