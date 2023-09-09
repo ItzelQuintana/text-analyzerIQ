@@ -16,7 +16,7 @@
 
 ## 2. Interfaz
 
-*La apliación creada permite a las usuarias tomar decisiones informadas y sacar conclusiones significativas a través del análisis que la herramienta genera; con un estilo enfocado a la presentación visual de la información de una manera atractiva y clara. 
+La apliación creada permite a las usuarias tomar decisiones informadas y sacar conclusiones significativas a través del análisis que la herramienta genera; con un estilo enfocado a la presentación visual de la información de una manera atractiva y clara. 
 
 ![Analizador ITZEL](https://github.com/ItzelQuintana/text-analyzerIQ/assets/142268037/726c90ae-dc75-4ae5-9d36-30702cc4cf45)
 
@@ -70,6 +70,6 @@ Además, la aplicación permite ejecutar anáisis nuevos de acuerdo con la neces
 
 
 
-##**¡Esperamos que el proyecto sea de tu utilidad y agrado!**
+**¡Esperamos que el proyecto sea de tu utilidad y agrado!**
 
-##*Elaborado por Itzel Quintana, generación DEV-011*
+*Elaborado por Itzel Quintana, generación DEV-011*
