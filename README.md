@@ -22,7 +22,7 @@ La apliación creada permite a las usuarias tomar decisiones informadas y sacar 
 
 ## 3. Funcionalidades
 
-El listado de funciones que ejecuta en tiempo real y a medida que la usuaria escribe su texto proyecto es:
+El listado de funciones que ejecuta en tiempo real y a medida que la usuaria escribe su texto es:
 
 1) **Recuento de palabras**: La aplicación cuenta el número de palabras en el texto de entrada.
 2) **Recuento de caracteres**: La aplicación cuenta el número de caracteres en el texto de entrada, incluidos espacios y signos de
@@ -70,6 +70,6 @@ Además, la aplicación permite ejecutar anáisis nuevos de acuerdo con la neces
 
 
 
-**¡Esperamos que el proyecto sea de tu utilidad y agrado!**
+**¡Espero que el proyecto sea de tu utilidad y agrado!**
 
 *Elaborado por Itzel Quintana, generación DEV-011*
