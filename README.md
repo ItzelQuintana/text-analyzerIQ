@@ -18,7 +18,7 @@
 
 La apliación creada permite a las usuarias tomar decisiones informadas y sacar conclusiones significativas a través del análisis que la herramienta genera; con un estilo enfocado a la presentación visual de la información de una manera atractiva y clara. 
 
-![Analizador ITZEL](https://github.com/ItzelQuintana/text-analyzerIQ/assets/142268037/726c90ae-dc75-4ae5-9d36-30702cc4cf45)
+![Analizador ITZEL](https://github.com/ItzelQuintana/text-analyzerIQ/assets/142268037/964bec5c-3e2b-4951-bc47-4539eda14adf)
 
 ## 3. Funcionalidades
 
