@@ -3,9 +3,9 @@
 ## Índice
 
 * [1. Consideraciones generales](#1-consideraciones-generales)
-* [2. Preámbulo](#2-preámbulo)
+* [2. Interfaz](#2-interfaz)
 * [3. Funcionalidades](#3-funcionalidades)
-* [4. Descripción de archivos](#4-descripción-de-scripts-/-archivos)
+* [4. Descripción de archivos](#4-descripción-de-scripts-/archivos)
 * [5. Objetivos de aprendizaje](#5-objetivos-de-aprendizaje)
 ***
 
@@ -51,24 +51,25 @@ Además, la aplicación permite ejecutar anáisis nuevos de acuerdo con la neces
 ## 5.Objetivos de aprendizaje
 
 1) HTML
-   - [ ]Uso de HTML semántico
-   - [ ]Uso de selectores del DOM
-   - [ ]Manejo de eventos del DOM (listeners, propagación, delegación)
-   - [ ]Manipulación dinámica del DOM
+   - Uso de HTML semántico
+   - Uso de selectores del DOM
+   - Manejo de eventos del DOM (listeners, propagación, delegación)
+   - Manipulación dinámica del DOM
 
 2) JavaScript
-   - [ ]Uso de selectores del DOM
-   - [ ]Tipos de datos primitivos
-   - [ ]Variables (declaración, asignación, ámbito
-   - [ ]Uso de condicionales (if-else, switch, operador ternario, lógica booleana)
-   - [ ]Uso de bucles/ciclos (while, for, for..of)
-   - [ ]Funciones (params, args, return)
+   - Uso de selectores del DOM
+   - Tipos de datos primitivos
+   - Variables (declaración, asignación, ámbito
+   - Uso de condicionales (if-else, switch, operador ternario, lógica booleana)
+   - Uso de bucles/ciclos (while, for, for..of)
+   - Funciones (params, args, return)
 
-3)CSS
+3) CSS
    - [ ]Uso de selectores de CSS
    - [ ]Modelo de caja (box model): border, margen, paddin
 
 
 
-**¡Esperamos que el proyecto sea de tu utilidad y agrado!**
-*Elaborado por Itzel Quintana, generación DEV-011*
+##**¡Esperamos que el proyecto sea de tu utilidad y agrado!**
+
+##*Elaborado por Itzel Quintana, generación DEV-011*
