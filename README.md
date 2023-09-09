@@ -65,11 +65,11 @@ Además, la aplicación permite ejecutar anáisis nuevos de acuerdo con la neces
    - Funciones (params, args, return)
 
 3) CSS
-   - [ ]Uso de selectores de CSS
-   - [ ]Modelo de caja (box model): border, margen, paddin
+   - Uso de selectores de CSS
+   - Modelo de caja (box model): border, margen, paddin
 
 
 
 **¡Espero que el proyecto sea de tu utilidad y agrado!**
 
-*Elaborado por Itzel Quintana, generación DEV-011*
+[ ] *Elaborado por Itzel Quintana, generación DEV-011*
