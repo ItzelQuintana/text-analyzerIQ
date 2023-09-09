@@ -31,6 +31,7 @@ const analyzer = {
     let sumaLongitudes = 0;
     for (let i = 0; i < palabras.length; i++) {
       sumaLongitudes += palabras[i].length;
+      
     }
     const promedioSTR = (sumaLongitudes / palabras.length).toFixed(2);
     const promedio = Number(promedioSTR);
@@ -60,7 +61,7 @@ const analyzer = {
     for (let i = 0; i < arrayTotal.length; i++) {
       const numeroV = arrayTotal[i].trim();
       if (/^\d+(\.\d+)?$/g.test(numeroV)) {
-        arrayNms.push(parseFloat(numeroV));
+        arrayNms.push(Number(numeroV));
       }
     }
     console.log(arrayNms);
