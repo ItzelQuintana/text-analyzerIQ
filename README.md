@@ -4,14 +4,9 @@
 
 * [1. Consideraciones generales](#1-consideraciones-generales)
 * [2. Preámbulo](#2-preámbulo)
-* [3. Resumen del proyecto](#3-resumen-del-proyecto)
-* [4. Funcionalidades](#4-funcionalidades)
-* [5. Boilerplate](#5-boilerplate)
-* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Pruebas](#7-pruebas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Consideraciones para pedir tu Project Feedback](#9-consideraciones-para-pedir-tu-project-feedback)
-* [10. Objetivos de aprendizaje](#10-objetivos-de-aprendizaje)
+* [3. Funcionalidades](#3-funcionalidades)
+* [4. Descripción de archivos](Descripción de scripts / archivos)
+* [5. Objetivos de aprendizaje](#5-objetivos-de-aprendizaje)
 * [11. Funcionalidades opcionales](#11-funcionalidades-opcionales)
 
 ***
@@ -25,7 +20,7 @@
 
 Las aplicaciones de análisis de texto brindan información valiosa sobre los textos que pueden ayudar a las usuarias a tomar decisiones informadas y sacar conclusiones significativas. Mediante el uso de estas herramientas de análisis, las usuarias pueden obtener una comprensión más profunda de los textos.
 
-## 4. Funcionalidades
+## 3. Funcionalidades
 
 El listado de funciones que ejecuta en tiempo real y a medida que la usuaria escribe su texto proyecto es:
 
@@ -39,77 +34,20 @@ El listado de funciones que ejecuta en tiempo real y a medida que la usuaria esc
 
 Además, la aplicación permite ejecutar anáisis nuevos de acuerdo con la necesidad del usuario. 
 
-![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")
+![Analizador ITZEL](https://github.com/ItzelQuintana/text-analyzerIQ/assets/142268037/726c90ae-dc75-4ae5-9d36-30702cc4cf45)
 
 
-### Descripción de scripts / archivos
+## 4.Descripción de scripts / archivos
 
-* `README.md`: debes modificarlo para explicar la información necesaria para el
-  uso de tu aplicación
-  web, así como una introducción a la aplicación, su funcionalidad y decisiones
-  de diseño que tomaron.
-* `.github/workflows`: esta carpeta contine la configuracion para la ejecution
-  de Github Actions. No debes modificar esta carpeta ni su contenido.
-* `docs/images`: contiene las imagenes de este README.
-* `read-only/`: esta carpeta contiene las pruebas de criterios mínimos de
-  aceptación y end-to-end. No debes modificar esta carpeta ni su contenido.
-* [`src/index.html`](./src/index.html): este es el punto de entrada a tu
-  aplicación. Este archivo debe contener tu HTML.
-* [`src/style.css`](./src/style.css): este archivo debe contener las reglas de
-  estilo. Queremos que escribas tus propias reglas, por eso NO está permitido el
-  uso de frameworks de CSS (Bootstrap, Materialize, etc).
-* [`src/analyzer.js`](./src/analyzer.js): acá debes implementar el objeto
-  `analyzer`, el cual ya está _exportado_ en el _boilerplate_. Este objeto
-  (`analyzer`) debe contener seis métodos:
-  - `analyzer.getWordCount(text)`: esta función debe retornar el recuento de
-  palabras que se encuentran en el parámetro `text` de tipo `string`.
-  - `analyzer.getCharacterCount(text)`: esta función debe retornar el recuento
-  de caracteres que se encuentran en el parámetro `text` de tipo `string`.
-  - `analyzer.getCharacterCountExcludingSpaces(text)`: esta función debe retornar
-  el recuento de caracteres excluyendo espacios y signos de puntuación que se
-  encuentran en el parámetro `text` de tipo `string`.
-  - `analyzer.getNumberCount(text)`: esta función debe retornar cúantos números
-  se encuentran en el parámetro `text` de tipo `string`.
-  - `analyzer.getNumberSum(text)`: esta función debe retornar la suma de todos
-  los números que se encuentran en el parámetro `text` de tipo `string`.
-  - `analyzer.getAverageWordLength(text)`: esta función debe retornar la longitud
-  media de palabras que se encuentran en el parámetro `text` de tipo `string`.
-  En este caso usa 2 dígitos decimales.
+* [`src/index.html`](./src/index.html): Este archivo debe contien el código de HTML.
+* [`src/style.css`](./src/style.css): Este archivo debe contener las reglas de
+  estilo utilizado en código CSS.
+* [`src/analyzer.js`](./src/analyzer.js): Este archivo contiene las especificaciones del objeto
+  `analyzer`, el cual, contiene los métodos desarollados en JS para dar funcionalidad al proyecto.
+* [`src/index.js`](./src/index.js): Este archivo contiene el código para escuchar eventos del DOM, invocar
+  los métodos del objeto `analyzer` y actualizar el resultado en la UI (interfaz de usuaria).
+* [`test/analyzer.spec.js`](./test/analyzer.spec.js): Este archivo contiene las pruebas unitarias realizadas para los métodos del objeto `analyzer`.
 
-  Para ejemplo de uso de cada función recomendamos ver el archivo
-  [`test/analyzer.spec.js`](./test/analyzer.spec.js).
-
-  _Nota:  para simplificar las funcionalidades, definiremos las palabras como
-  un grupos de caracteres separados por espacios. Por ejemplo las palabras del
-  texto de entrada `¡Si, Tú puedes hacerlo!` son cuatro:_
-
-  - _`¡Si,`_
-  - _`Tú`_
-  - _`puedes`_
-  - _`hacerlo!`_
-
-* [`src/index.js`](./src/index.js): acá debes escuchar eventos del DOM, invocar
-  los métodos del objeto `analyzer` según sea necesario y actualizar el resultado
-  en la UI (interfaz de usuaria).
-* [`test/analyzer.spec.js`](./test/analyzer.spec.js): este archivo contiene las
-pruebas unitarias para los métodos del objeto `analyzer`.
-
-***
-
-#### Deploy
-
-Hacer que los sitios estén publicados (o _desplegados_) para que usuarias de
-la web puedan acceder a él es algo común en proyectos de desarrollo de software.
-
-En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
-
-El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
- consultar su [documentación oficial](https://docs.github.com/es/pages).
-
-## 6. Criterios de aceptación mínimos del proyecto
-
-A continuación encontrarás los criterios de aceptación mínimos del proyecto
-relacionados con cada objetivo de aprendizaje.
 
 ### HTML
 
